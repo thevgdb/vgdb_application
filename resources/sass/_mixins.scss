@@ -1,0 +1,14 @@
+@import 'variables';
+
+@mixin selection($color: '') {
+    @if $color == red {
+        background-color: #ffb7b7;
+    } @else if $color == blue {
+        background-color: #a8d1ff;
+    } @else if $color == yellow {
+        background-color: #fff2a8;
+    } @else {
+        background-color: #b3d4fc;
+    }
+    color: $white;
+}
